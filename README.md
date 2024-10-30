@@ -38,21 +38,19 @@ Below is a brief description of the results of the models used
 
 # **Summary of the results obtained**
 
-Models  | Conclusion
--------------------|------------------
-**Linear Regression**|**Linear regression shows moderate performance with a noticeable gap between training and testing results, indicating some overfitting.**
-                     |
-**Polynomial Regression**|**Polynomial regression shows an improvement in training performance but overfits the training data, leading to lower performance on test data.**
-|
-**Ridge Regression** |**Ridge regression shows a balanced performance between training and testing, indicating a good generalization capability.**
-|
-**Lasso Regression**|**Lasso regression performs well on training data but shows some overfitting on test data.**
-|
-**Decision Tree** |**Decision tree shows significant overfitting, with much better performance on training data compared to test data.**
-|
-**Random Forest** |**Random forest shows excellent performance on training data but overfits the data, leading to a drop in performance on test data.**
-
-# ** Overall Conclusion ** :
+**Linear Regression** : **Linear regression shows moderate performance with a noticeable gap between training and testing results, indicating some overfitting.**
+________________________________________________________________________________________
+**Polynomial Regression** : **Polynomial regression shows an improvement in training performance but overfits the training data, leading to lower performance on test data.**
+_________________________________________________________________________________________
+**Ridge Regression** : **Ridge regression shows a balanced performance between training and testing, indicating a good generalization capability.**
+_________________________________________________________________________________________
+**Lasso Regression** : **Lasso regression performs well on training data but shows some overfitting on test data.**
+__________________________________________________________________________________________
+**Decision Tree** : **Decision tree shows significant overfitting, with much better performance on training data compared to test data.**
+___________________________________________________________________________________________
+**Random Forest** : **Random forest shows excellent performance on training data but overfits the data, leading to a drop in performance on test data.**
+___________________________________________________________________________________________
+# **Overall Conclusion** :
 Ridge regression and lasso regression show the most balanced performance between training and testing data, indicating good generalization capabilities. While random forest performs well on training data, it suffers from significant overfitting.
 
 
