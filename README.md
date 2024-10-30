@@ -1,5 +1,5 @@
 # **House Prices Regression Project**
-The goal of this project is to predict house prices using various machine learning algorithms. By analyzing different features of houses, we aim to build a predictive model that accurately estimates house prices based on historical data.
+The goal of this project is to predict house prices using various machine learning algorithms. By analyzing different features of houses, we aim to build a predictive model that estimates house prices based on historical data.
  # **Project Aims** 
  ### 1. Data import:
 * Download the house price dataset from Kaggle.
@@ -14,7 +14,7 @@ The goal of this project is to predict house prices using various machine learni
 * Train the model using the data and evaluate its performance using metrics like: R2-Score, MSE, RMSE, MAE, MAPE.
 
 ### 4. Model Improvement:
-* Improve the model using techniques like cross-validation and feature engineering.
+* Improve the model using techniques like cross-validation and feature engineering, and outlier removal.
 * Compare different models and select the one that provides the best accuracy.
  
 # **Data Set** 
@@ -42,18 +42,18 @@ Models  | Conclusion
 -------------------|------------------
 **Linear Regression**|**Linear regression shows moderate performance with a noticeable gap between training and testing results, indicating some overfitting.**
 |
-|
 **Polynomial Regression**|**Polynomial regression shows an improvement in training performance but overfits the training data, leading to lower performance on test data.**
-|
 |
 **Ridge Regression** |**Ridge regression shows a balanced performance between training and testing, indicating a good generalization capability.**
 |
-|
 **Lasso Regression**|**Lasso regression performs well on training data but shows some overfitting on test data.**
-|
 |
 **Decision Tree** |**Decision tree shows significant overfitting, with much better performance on training data compared to test data.**
 |
 **Random Forest** |**Random forest shows excellent performance on training data but overfits the data, leading to a drop in performance on test data.**
+
+# ** Overall Conclusion ** :
+Ridge regression and lasso regression show the most balanced performance between training and testing data, indicating good generalization capabilities. While random forest performs well on training data, it suffers from significant overfitting.
+
 
  
