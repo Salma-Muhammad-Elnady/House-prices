@@ -41,7 +41,7 @@ Below is a brief description of the results of the models used
 Models  | Conclusion
 -------------------|------------------
 **Linear Regression**|**Linear regression shows moderate performance with a noticeable gap between training and testing results, indicating some overfitting.**
-
+|
 **Polynomial Regression**|**Polynomial regression shows an improvement in training performance but overfits the training data, leading to lower performance on test data.**
 |
 **Ridge Regression** |**Ridge regression shows a balanced performance between training and testing, indicating a good generalization capability.**
