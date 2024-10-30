@@ -18,4 +18,4 @@ The goal of this project is to predict house prices using various machine learni
 * Compare different models and select the one that provides the best accuracy.
  
 # **Data Set** 
-The dataset for this project can be found ['her']('https://www.kaggle.com/datasets/yasserh/housing-prices-dataset/code')
+The dataset for this project can be found [her](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset/code)
